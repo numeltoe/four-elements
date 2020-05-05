@@ -1,0 +1,23 @@
+{
+  "name": "realfourelements",
+  "version": "1.0.0",
+  "description": "This is a website about the Four Elements.",
+  "main": "home.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts"
+  },
+  "author": "Sam Bottman",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

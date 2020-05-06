@@ -1,5 +1,4 @@
 body {
-    color: white;
     font-family: Trebuchet MS, sans-serif; }
 
 p {
@@ -7,15 +6,7 @@ p {
     font-family: Trebuchet MS, sans-serif;
 }
   
-h1, h2, h3 {
-    color: white;
-    font-family: "Lobster", cursive; }
   
-h2 {
-    color: green; }
-  
-header h2 {
-    color: white; }
 
 .jumbotron {
     margin: 0;
@@ -25,6 +16,16 @@ header h2 {
 
 .jumbotron img {
     opacity: 0.5;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-family: "Lobster", cursive; 
+}
+
+.jumbotron h2 {
+    color: white;
+    font-family: "Lobster", cursive; 
 }
 
 .jumbotron button {
